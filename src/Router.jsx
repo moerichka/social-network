@@ -11,6 +11,7 @@ import RegistrationPage from "./pages/RegistrationPage";
 
 function Router() {
   const dispatch = useDispatch();
+  
   const { user, isLoading } = useSelector((state) => state.user);
 
   const email = useMemo(() => localStorage.getItem("userEmail") || "", []);
