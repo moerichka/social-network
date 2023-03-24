@@ -1,0 +1,10 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.input {
+  padding: 18px 16px;
+  border-radius: 10px;
+  border: 1px solid hsla(210, 5%, 85%, 1);
+}
